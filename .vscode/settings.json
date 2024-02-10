@@ -1,0 +1,36 @@
+{
+  "explorer.confirmDelete": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Monokai Pro",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "pylint.args": [
+    "--disable=C0114",
+    "--disable=C0115",
+    "--disable=E0401",
+    "--disable=C0116",
+    "--disable=W0613",
+    "--max-line-length=88"
+  ],
+  "flake8.args": ["--ignore=F401", "--max-line-length=88"],
+  "isort.args": ["--profile", "black"],
+  "editor.rulers": [88],
+  "editor.cursorStyle": "line-thin",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.mouseWheelZoom": true
+}
