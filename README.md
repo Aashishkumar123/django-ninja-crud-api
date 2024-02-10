@@ -1,5 +1,5 @@
 # django-ninja CRUD API
-A simple crud api using django ninja package
+A simple crud api using django ninja Framework
 
 # Clone Project
 ```
