@@ -8,7 +8,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
@@ -22,11 +22,12 @@
     "--disable=E0401",
     "--disable=C0116",
     "--disable=W0613",
-    "--max-line-length=88"
+    "--disable=E1101",
+    "--max-line-length=100"
   ],
-  "flake8.args": ["--ignore=F401", "--max-line-length=88"],
+  "flake8.args": ["--ignore=F401", "--max-line-length=100"],
   "isort.args": ["--profile", "black"],
-  "editor.rulers": [88],
+  "editor.rulers": [100],
   "editor.cursorStyle": "line-thin",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
