@@ -7,7 +7,7 @@ git clone https://github.com/Aashishkumar123/django-ninja-crud-api
 ```
 
 
-# install poetry
+# Install poetry
 This project is configured with poetry, so install poetry with this command
 ```
 pip install poetry
